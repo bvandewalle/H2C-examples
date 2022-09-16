@@ -6,7 +6,7 @@ HTTP2-Cleartext (H2C) in go example.
 ## HTTP/1.1:
 
 ```
-curl localhost:8080 -v
+$ curl localhost:8080 -v
 *   Trying 127.0.0.1:8080...
 * TCP_NODELAY set
 * Connected to localhost (127.0.0.1) port 8080 (#0)
@@ -60,7 +60,7 @@ HTTP2 test
 
 ## HTTP2 Prior-Knowledge:
 ```
-scratch-space/http2-istio$ curl localhost:8080 -v --http2-prior-knowledge
+$ curl localhost:8080 -v --http2-prior-knowledge
 *   Trying 127.0.0.1:8080...
 * TCP_NODELAY set
 * Connected to localhost (127.0.0.1) port 8080 (#0)
